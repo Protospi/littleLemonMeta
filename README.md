@@ -100,6 +100,32 @@ To gain insights into the uniqueness of data in each column, we can use the `df.
 df.nunique()
 ```
 
+| Column Name   | Unique Values |
+|---------------|---------------|
+| RowNumber     | 21000         |
+| OrderID       | 1000          |
+| OrderDate     | 700           |
+| DeliveryDate  | 666           |
+| CustomerID    | 1000          |
+| CustomerName  | 1000          |
+| City          | 975           |
+| Country       | 123           |
+| PostalCode    | 18528         |
+| CountryCode   | 122           |
+| Cost          | 22            |
+| Sales         | 22            |
+| Quantity      | 3             |
+| Discount      | 31            |
+| DeliveryCost  | 958           |
+| CourseName    | 6             |
+| CuisineName   | 3             |
+| StarterName   | 6             |
+| DesertName    | 6             |
+| Drink         | 6             |
+| Sides         | 6             |
+
+This table provides information about the number of unique values present in each column of the Little Lemon sales data. Understanding the uniqueness of each attribute can help in designing the Entity Relationship Model and identifying key features for analysis or modeling purposes.
+
 The output of the above code snippet gives us the count of unique values for each column in the DataFrame. For example, 'OrderID' has 1000 unique values, 'OrderDate' has 700 unique values, 'DeliveryDate' has 666 unique values, and so on. This information helps us understand the cardinality of each attribute and will be useful while designing the Entity Relationship Model.
 
 ## Conclusion
